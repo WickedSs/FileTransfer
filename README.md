@@ -15,4 +15,4 @@ A program that transfer files between computers
 4- then go to the ClientSide and change the extension of the Outputfile as the file you desire to transfer with (You can change the name ''Trans-file" to whatever you want )
 
 
-Run the server in the computer where the file is, then go to the other computer where you want to transfer the file and run.
+Run the server in the computer where the file is, then go to the other computer where you want to transfer the file and run the ClientSide 
