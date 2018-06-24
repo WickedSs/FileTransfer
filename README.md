@@ -1,8 +1,9 @@
 # tcp-file-Sharing-
 A program that transfer files between computers 
 
-Tip : 
-Don't forget to specify the path of the file you want to transfer 
+# HOW TO USE :
+
+-- Don't forget to specify the path of the file you want to transfer 
 
 1- Go to ServerSide.java, create a file with a name "Share" and paste the file there 
 
