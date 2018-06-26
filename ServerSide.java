@@ -51,16 +51,16 @@ public class ServerSide {
         BufferedInputStream bis = new BufferedInputStream(fis);
         OutputStream os = WickedClients.getOutputStream();
 
-        // Progress method
-        String state = "Downloading file : ";
-        String anim = "|/-\\";
-        int x;
-        for (x = 0; x <= 100; x++) {
-            String data = "\r" + state.toString() +  "  " + anim.charAt((x % anim.length())) + "  " + x;
-            System.out.write(data.getBytes());
-            System.out.print("%");
-            Thread.sleep(100);
-        }
+           // Progress method, haven't finished it yet 
+//         String state = "Downloading file : ";
+//         String anim = "|/-\\";
+//         int x;
+//         for (x = 0; x <= 100; x++) {
+//             String data = "\r" + state.toString() +  "  " + anim.charAt((x % anim.length())) + "  " + x;
+//             System.out.write(data.getBytes());
+//             System.out.print("%");
+//             Thread.sleep(100);
+//         }
         // read the data of the file then write it
         try {
             byte[] contents;
